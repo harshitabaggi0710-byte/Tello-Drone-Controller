@@ -44,21 +44,20 @@ The system leverages the `djitellopy` library to interface with the drone and in
 ## ▶️ How to Run
 
 ### 1. Install Requirements
-```bash
-pip install djitellopy opencv-python numpy pygame cvzone
 
-2. Connect to Drone
+- pip install djitellopy opencv-python numpy pygame cvzone
 
-Power on the DJI Tello Drone.
+### 2. Connect to Drone
 
-Connect your computer to the drone WiFi (TELLO-XXXX).
+- Power on the DJI Tello Drone.
+- Connect your computer to the drone WiFi (TELLO-XXXX).
 
-3. Run Keyboard Control
+### 3. Run Keyboard Control
 
-python keyboard_control.py
+- python keyboard_control.py
 
 
-Controls:
+## Controls:
 
 ⬆️ UP → Move Forward
 
@@ -75,7 +74,7 @@ E → Takeoff
 4. Run Object Detection
 python object_detection.py
 
-📌 Learning Outcomes
+### 📌 Learning Outcomes
 
 Gained hands-on experience with drone programming
 
